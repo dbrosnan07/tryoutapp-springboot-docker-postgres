@@ -1,4 +1,4 @@
-# TryoutApp using Spring Boot with PostgreSQL and Docker
+# TryoutApp using Spring Boot with PostgresSQL and Docker
 # Author: David Brosnan
 
 ## STEPS
