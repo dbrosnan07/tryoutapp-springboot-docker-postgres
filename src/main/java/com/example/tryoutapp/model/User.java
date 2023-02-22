@@ -5,20 +5,21 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class UserModel 
+public class User 
 {
 
     @Id
     @GeneratedValue
-    private Long id;
+    private int id;
     private String name;
+    private String email;
 
-    public Long getId() 
+    public int getId() 
     {
         return id;
     }
 
-    public void setId(Long id) 
+    public void setId(int id) 
     {
         this.id = id;
     }
@@ -32,4 +33,13 @@ public class UserModel
     {
         this.name = name;
     }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
 }

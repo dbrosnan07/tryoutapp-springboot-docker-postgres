@@ -28,9 +28,9 @@ dependencies {
     testImplementation 'org.testcontainers:postgresql:1.17.5'
 }
 
-// test {
-//     useJUnitPlatform()
-//     testLogging {
-//         events "passed", "skipped", "failed"
-//     }
-// }
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}
